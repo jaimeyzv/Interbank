@@ -1,0 +1,75 @@
+<div class="content">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">Age</th>
+            <th scope="col">Birthday</th>
+            <th scope="col">Operations</th>
+          </tr>
+        </thead>
+        <tbody *ngIf="clients">
+          <tr *ngFor="let client of clients">
+            <td>{{ client.name }}</td>
+            <td>{{ client.lastname }}</td>
+            <td>{{ client.age }}</td>
+            <td>{{ client.birthday }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <button (click)="showCreatePanel()">Create</button>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Average</th>
+            <th scope="col">Standard Deviation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ avgAge}}</td>
+            <td>{{ stdDev }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <button (click)="showCreatePanel()">Create</button>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+  <div *ngIf="localCreate" >
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h3>Create</h3>
+          <div class="form-group">
+              <label for="formGroupExampleInput">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" [(ngModel)]="client.name" placeholder="Name">
+          </div>
+          <div class="form-group">
+              <label for="formGroupExampleInput2">Lastname</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" [(ngModel)]="client.lastname" placeholder="Lastname">
+          </div>
+          <div class="form-group">
+              <label for="formGroupExampleInput2">Age</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" [(ngModel)]="client.age" placeholder="Age">
+          </div>
+          <div class="form-group">
+              <label for="formGroupExampleInput2">Birthday</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" [(ngModel)]="client.birthday" placeholder="Birthday">
+          </div>
+          <button type="submit" class="btn btn-primary" (click)="create()">Create</button>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</div>

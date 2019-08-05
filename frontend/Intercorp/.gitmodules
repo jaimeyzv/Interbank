@@ -1,0 +1,3 @@
+[submodule "Interbank"]
+	path = Interbank
+	url = https://github.com/jaimeyzv/Interbank.git
