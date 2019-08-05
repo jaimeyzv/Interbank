@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Data", "1-Data", "{3B78924A-2661-4E15-A0DF-969D41ADDEF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{164DD17B-980B-4833-BECA-E4E0BC9EB831}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Api", "3-Api", "{4C79F965-B31C-453A-BF05-B73631C11F67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{A7694068-3663-4A1C-B42F-F66E225FEEF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Data", "Intercorp.Data\Intercorp.Data.csproj", "{F948A017-1A86-436D-8307-62A24773F913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Domain", "Intercorp.Domain\Intercorp.Domain.csproj", "{8A1F20B5-F7C3-4A04-8FAB-625CB4179AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Dtos", "Intercorp.Dtos\Intercorp.Dtos.csproj", "{BC966818-C900-433C-842E-1F2506279EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Api", "Intercorp.Api\Intercorp.Api.csproj", "{38399263-8D24-4745-943D-87F8844519E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Injector", "Intercorp.Injector\Intercorp.Injector.csproj", "{C85CF40D-2000-4273-BA21-F168E1B5E7AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F948A017-1A86-436D-8307-62A24773F913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F948A017-1A86-436D-8307-62A24773F913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F948A017-1A86-436D-8307-62A24773F913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F948A017-1A86-436D-8307-62A24773F913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1F20B5-F7C3-4A04-8FAB-625CB4179AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1F20B5-F7C3-4A04-8FAB-625CB4179AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1F20B5-F7C3-4A04-8FAB-625CB4179AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1F20B5-F7C3-4A04-8FAB-625CB4179AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC966818-C900-433C-842E-1F2506279EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC966818-C900-433C-842E-1F2506279EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC966818-C900-433C-842E-1F2506279EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC966818-C900-433C-842E-1F2506279EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38399263-8D24-4745-943D-87F8844519E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38399263-8D24-4745-943D-87F8844519E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38399263-8D24-4745-943D-87F8844519E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38399263-8D24-4745-943D-87F8844519E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85CF40D-2000-4273-BA21-F168E1B5E7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85CF40D-2000-4273-BA21-F168E1B5E7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85CF40D-2000-4273-BA21-F168E1B5E7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85CF40D-2000-4273-BA21-F168E1B5E7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F948A017-1A86-436D-8307-62A24773F913} = {3B78924A-2661-4E15-A0DF-969D41ADDEF4}
+		{8A1F20B5-F7C3-4A04-8FAB-625CB4179AA0} = {164DD17B-980B-4833-BECA-E4E0BC9EB831}
+		{BC966818-C900-433C-842E-1F2506279EF7} = {A7694068-3663-4A1C-B42F-F66E225FEEF9}
+		{38399263-8D24-4745-943D-87F8844519E9} = {4C79F965-B31C-453A-BF05-B73631C11F67}
+		{C85CF40D-2000-4273-BA21-F168E1B5E7AD} = {A7694068-3663-4A1C-B42F-F66E225FEEF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E582747-2AD5-49DA-943F-510A3616CCE6}
+	EndGlobalSection
+EndGlobal

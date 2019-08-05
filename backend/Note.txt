@@ -1,0 +1,13 @@
+Packages per projects
+---------------------
+
+Intercorp.Data
+	Install-Package NPoco -Version 4.0.1
+Intercorp.Dtos
+	Install-Package NPoco -Version 4.0.1
+Intercorp.Injector
+	Install-Package Unity -Version 5.5
+Intercorp.Api
+	Install-Package Unity.WebAPI -Version 5.3.0
+	Install-Package Unity -Version 5.5
+	Install-Package Swashbuckle -Version 5.4.0 

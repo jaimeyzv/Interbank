@@ -1,0 +1,7 @@
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\bin\Debug\Intercorp.Dtos.dll
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\bin\Debug\Intercorp.Dtos.pdb
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\bin\Debug\NPoco.dll
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\obj\Debug\Intercorp.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\obj\Debug\Intercorp.Dtos.csproj.CopyComplete
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\obj\Debug\Intercorp.Dtos.dll
+C:\Users\JAIME\Dropbox\Intercorp\backend\Intercorp.All\Intercorp.Dtos\obj\Debug\Intercorp.Dtos.pdb
